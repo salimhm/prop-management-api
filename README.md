@@ -16,7 +16,7 @@ A simple RESTful API for managing properties, tenants and payments written in Py
 ### Setup
 
 1. Clone the repository.
-2. Create a .env file, go to this site to generate your Django secret key add it to the .env (a .env.sample is provided). 
+2. Create a .env file, go to this site => djecrety . ir (remove space) to generate your Django secret key add it to the .env (a .env.sample is provided).
 3. In the root directory (where your 'Dockerfile' is located), execute the following commands:
    - sudo docker build -t propertymanagement .
    - sudo docker run -d -p 8000:8000 --name prop-api propertymanagement
